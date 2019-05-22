@@ -1,0 +1,11 @@
+framework module SwiftUIComponents {
+  umbrella header "SwiftUIComponents.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftUIComponents.Swift {
+    header "SwiftUIComponents-Swift.h"
+    requires objc
+}
